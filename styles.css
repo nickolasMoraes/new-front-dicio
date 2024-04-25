@@ -1,0 +1,158 @@
+body{
+  font-family: 'Roboto', 'Serif', 'San-serif';
+}
+/* Estilos adicionais */
+.custom-header {
+    background-color: #78866B; /* Marrom claro */
+    padding: 30px 30px; /* Aumenta o padding para deixar o header mais largo */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+  }
+  .title {
+    color: #4d4d4d; /* Cor do texto */
+    font-size: 24px; /* Aumenta o tamanho do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-transform: uppercase; /* Converte o texto em maiúsculas */
+    margin-top: 0; /* Remove a margem superior do título */
+    white-space: nowrap; /* Impede quebrar a linha automaticamente */
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  .search-input {
+    flex: 1;
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    max-width: 400px; /* Define a largura máxima da barra de pesquisa */
+  }
+  .btn-primary, .btn-secondary {
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+  }
+  .btn-primary {
+    font-weight: bold; /* Deixa o texto do botão "Buscar" em negrito */
+  }
+  .btn-secondary {
+    font-weight: bold;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .job-img{
+    max-width: 90px;
+    position: absolute;
+    justify-content: center;
+  }  
+  .footer {
+    background-color: #343a40;
+  }
+  .footer p {
+    color: white;
+    font-size: 14px;
+  }
+  .small-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .small-option:hover {
+    background-color: #e9ecef;
+  }
+  .option-icon {
+    margin-right: 5px;
+  }
+  body {
+    background-color: #c4c9cd;
+  }
+#speakButton{
+  background-color: #343a40;
+}
+
+#sortearVocabular{
+  background-color: #343a40;
+}
+.editor-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+.editor {
+  flex: 1;
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.editor-clear-button,
+.output-copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.output {
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  position: relative;
+}
+.output-copy-button {
+  top: 10px;
+  right: 10px;
+}
+textarea {
+  width: calc(100% - 24px);
+  height: 200px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+button {
+  padding: 10px 20px;
+  background-color: #c2d1e0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.word-counter {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+}
+
+#resultContainer {
+  background-color: #f8f9fa; /* Cor de fundo */
+  border: 1px solid #ced4da; /* Borda */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+#resultContainer h2 {
+  color: #666; /* Cor do título */
+  margin-bottom: 10px; /* Margem inferior do título */
+}
+
+.property {
+  margin-bottom: 10px; /* Espaçamento entre propriedades */
+}
+
+.property strong {
+  font-weight: bold; /* Texto em negrito */
+  margin-right: 5px; /* Espaçamento à direita */
+}
+.card-title{
+  color: #666;
+}
